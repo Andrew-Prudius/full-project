@@ -1,0 +1,124 @@
+.container-block {
+    width: 320px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    /* box-shadow: rgb(147 165 154 / 11%) 15px 5px 50px; */
+    background-color: white;
+  }
+  
+  .block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+  }
+  
+  .block__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .block__header-close {
+    border: none;
+    background-color: white;
+    margin-right: 16px;
+  }
+  
+  .block__header-logo {
+    margin-right: auto;
+  }
+  
+  .block__nav {
+    margin-top: 50px;
+    width: 100%;
+    height: auto; 
+    flex-grow: 1; 
+    position: relative;
+  }
+  
+  .block__nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .block__nav-item {
+    padding-bottom: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .block__nav-item::before {
+    content: '';
+    position: absolute;
+    left: -24px;
+    top: 25%;
+    transform: translateY(-50%);
+    width: 4px; 
+    height: 32px;
+    background-color: rgba(65, 246, 215, 1);
+    opacity: 0;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+  }
+  
+  .block__nav-item:hover::before {
+    opacity: 1;
+  }
+  
+  .block__nav-link {
+    color: rgba(27, 28, 33, 1);
+    transition: .4s;
+  }
+  
+  .block__nav-link:hover {
+    opacity: 0.5;
+  }
+  
+  .block__footer-media {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .block__footer-email {
+    margin-top: 16px;
+  }
+  
+  .block__footer-email-link {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+  
+  .block__footer-phone {
+    font-family: "TTLakes-Bold";
+    margin-top: 12px;
+  }
+  
+  .block__footer-phone-link {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+  }
+  
+  .block__footer-lang {
+    display: flex;
+    margin-top: 40px;
+    gap: 7px;
+  }
+  
+  .block__footer-lang-active {
+    color: #7e7e82;
+  }  
+
+  .container-block {
+    display: none;
+  }

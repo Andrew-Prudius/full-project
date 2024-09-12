@@ -1,0 +1,214 @@
+
+.repaired-equipment {
+    font-family: "TTLakes-Medium";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    color: #7E7E82;
+    padding: 16px;
+    font-weight: 400;
+}
+
+.all-brands {
+    background-color: #F8F8F8;
+    display: none;
+}
+
+.all-brands__list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 160px;
+    overflow: hidden;
+}
+
+.all-brands__list--item {
+    width: 30%;
+    height: 72px;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(234, 234, 234);
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-buttons {
+    padding-top: 24px;
+    display: none;
+}
+
+.brand-buttons__list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+
+.brand-buttons #button-close {
+    display: none;
+  }
+
+.brand-buttons #button-shut {
+    display: none;
+  }
+
+.swiper-container {
+    padding-left: 16px;
+    padding-right: 16px;
+    overflow: hidden;
+    background: #F8F8F8;
+    width: 100%;
+    height: auto;
+}
+
+.swiper-wrapper {
+    padding-top: 16px;
+}
+
+.swiper-pagination {
+    position: static !important;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+.swiper-pagination-bullet {
+    background: #dccece !important;
+}
+
+.screenClose {
+    height: auto;
+    overflow: auto;
+}
+
+.frontClose {
+    height: auto;
+    overflow: auto;
+}
+
+.textClose {
+   display: none;
+}
+
+.all-repairs__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    overflow: hidden;
+    height: 160px;
+}
+
+.all-repairs {
+    background-color: #F8F8F8;
+    display: none;
+}
+
+.all-repairs__list--item {
+    display: flex;
+    border-radius: 6px;
+    background-color: #fff;
+    width: 224px;
+    height: 150px;
+    max-width: 30%;
+}
+
+.all-repairs__list span {
+    padding: 16px;
+}
+
+.all-repairs__list a {
+    align-self: flex-end;
+    padding-bottom: 16px;
+}
+
+.swiper-slide__repair {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    margin-right: 16px !important;
+    width: 240px !important;
+    height: 160px !important;
+    padding: 15px;
+}
+
+.swiper-slide__repair a {
+    align-self: flex-end;
+}
+
+.service-table {
+    display: none;
+}
+
+.swiper-slide__else {
+    display: flex !important;
+    flex-direction: column !important;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 16px !important;
+    max-width: 250px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+}
+
+.swiper-slide__else div {
+    margin-bottom: 16px;
+}
+
+.swiper-slide__else span {
+    color: gray;
+    opacity: 0.7;
+}
+
+.time-job {
+    display: flex;
+}
+
+.but {
+    padding-left: 13px;
+}
+
+.price-block {
+    background-color: #F8F8F8;
+}
+
+.price-block__p1 {
+    font-family: "TTLakes-Regular";
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+    padding: 16px;
+}
+
+.price-block__p2 {
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    padding: 16px;
+}
+
+.footer {
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #7E7E82;
+    opacity: 0.72;
+    padding-top: 57px;
+}
+
+.footer__item {
+    margin-bottom: 16px;
+}

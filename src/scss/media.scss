@@ -1,0 +1,260 @@
+@media (min-width: 768px) {
+
+    .header-image__bt--hidden {
+        display: block;
+    }
+
+    .description-section__text-else {
+        display: none;
+    }
+
+    .description-section__text {
+        margin-bottom: 1em;
+    }
+      
+    .description-section__text--additional {
+        display: block;
+        margin-top: 1em;
+    }
+    
+    .header-image__bt--divider {
+        position: relative;
+        margin-left: 20px;
+    }
+    
+    .header-image__bt--divider::after {
+        content: "";
+        width: 2px;
+        height: 32px;
+        background-color: rgba(234, 234, 234, 1);
+        position: absolute;
+        left: -20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .header-image__bt--divider-right::after {
+        left: auto;
+        right: -5px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .description-section {
+        flex-grow: 1;
+        align-self: flex-start;
+        flex-basis: 60%;
+      }
+
+      .logo-container__image {
+        flex-shrink: 0;
+        margin-top: 0;
+        padding-right: 20px;
+      }
+
+    .repaired-equipment {
+        padding: 16px 24px;
+    }
+
+    .all-brands {
+        display: block;
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+
+    .all-brands__list {
+        gap: 16px 24px;
+    }
+
+    .brand-buttons {
+        display: block;
+        padding-bottom: 32px;
+    }
+
+    .brand-buttons__list {
+        display: flex;
+    }
+    
+    .swiper-container {
+        display: none;
+    }
+
+    .all-repairs {
+        display: block;
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+
+    .service-table {
+        display: inline-table;
+        width: 100%;
+        margin-top: 31px;
+    }
+    
+    .service-table thead {
+        text-align: left;
+        font-size: 14px;
+        color: gray;
+        opacity: 0.6;
+    }
+
+    .service-table tbody {
+        background-color: #ffffff;
+    }
+
+    .service-table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .overall-color {
+        background-color: #F8F8F8;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .olso {
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 1rem;
+        text-align: left;
+        padding: 31px 0 16px 16px;
+    }
+
+    table, th, td {
+        border: 0;
+        border-collapse: collapse;
+      }
+
+      .price-block {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .price-block__p1 {
+        padding-left: 24px;
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 24px;
+      }
+
+      .price-block__p2 {
+        padding-left: 24px;
+      }
+
+      .price-block__p2 img {
+        margin-left: 8px;
+      }
+
+      .footer__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .footer__item {
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+      }
+
+}
+
+
+@media (min-width: 1120px) {
+
+    .header {
+        display: none;
+    }
+    .services-section__button-container {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .services-section__button,
+    .services-section__status-button {
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 50%;
+        margin-right: 32px;
+    }
+
+    .services-section {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 42px;
+        padding-bottom: 16px;
+    }
+
+    .services-section__button-text,
+    .services-section__status-button-text {
+        align-self: center;
+        padding-right: 9px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #1B1C21;
+    }
+
+    .description-section__text-else {
+        display: contents;
+    }
+
+    .services-section__nav-list {
+        flex-wrap: wrap;
+    }
+
+    .logo-container__image {
+        width: 532px;
+        height: 307px;
+        margin-bottom: 50px;
+    }
+
+    .all-brands__list {
+        row-gap: 16px;
+        column-gap: 32px;
+    }
+
+    .all-brands {
+        padding-right: 20px;
+    }
+
+    .all-brands__list--item {
+        max-width: 22.6%;
+    }
+
+    .all-repairs__list {
+        gap: 16px 32px;
+    }
+
+    .all-repairs__list--item {
+        width: 237px;
+    }
+
+    .td {
+        text-align: end;
+    }
+
+    .container-block {
+        display: block !important;
+    }
+
+    .body-page {
+      max-width: none;
+      margin-left: 320px;
+    }
+
+    .block__header-close {
+      display: none;
+    }
+
+}
