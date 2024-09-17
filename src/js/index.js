@@ -10,10 +10,11 @@ import "../scss/normalize.scss"
 
  var swiper = new Swiper(".swiper-container", {
     slidesPerView: 1,
-    spaceBetween: -29,
+    spaceBetween: 10,
 
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
 
     slidesPerView: 'auto'

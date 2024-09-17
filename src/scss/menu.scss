@@ -5,8 +5,12 @@
     left: 0;
     top: 0;
     z-index: 10;
-    /* box-shadow: rgb(147 165 154 / 11%) 15px 5px 50px; */
     background-color: white;
+    box-shadow: 0 0 0 100vw rgb(255, 255, 255 / 0.88);
+    background-color: #fff;
+    width: 320px;
+    height: 100%;
+    border: 1px solid #b8ffec; 
   }
   
   .block {

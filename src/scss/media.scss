@@ -249,12 +249,30 @@
     }
 
     .body-page {
-      max-width: none;
       margin-left: 320px;
+      max-width: none;
     }
 
     .block__header-close {
       display: none;
+    }
+
+    .container-block {
+        box-shadow: none;
+    }
+
+}
+
+@media (min-width: 2154px) {
+
+    .body-page {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .container-block {
+        margin-left: 400px;
+        background-color: #f8f8f8d1;
     }
 
 }
